@@ -1,0 +1,53 @@
+// Login
+{
+  "email": "dilmiariyarathna98@gmail.com",
+  "password": "123456"
+}
+
+// Registration
+{
+  "name": "Dilmi Ariyarathna",
+  "email": "dilmiariyarathna98@gmail.com",
+  "password": "123456"
+}
+
+// Location SAVE
+{
+  "userId": "67e4471fc85c42f50af63761",
+  "locationName": "Colombo Office",
+  "latitude": 6.9271,
+  "longitude": 79.8612,
+  "radius": 100,
+  "delay": "15"
+}
+
+{
+  "userId": "660eabc9fd1234567890abcd",
+  "locationName": "Test Zone",
+  "latitude": 7.0,
+  "longitude": 80.0,
+  "radius": 200,
+  "delay": "5"
+}
+
+// Save Task
+{
+  "locationID": "67fc2dfeb071a3ad4748ad2c",
+  "locationName": "Colombo Office",
+  "category": "Work",
+  "name": "Submit CBSL report",
+  "taskDescription": "Complete the monthly financial report for CBSL requirement",
+  "dueDate": "2025-04-21T00:00:00.000Z",
+  "toDos": [
+    { "title": "Collect data on 16" },
+    { "title": "Write draft on 17" },
+    { "title": "Send to review on 18" },
+		{ "title": "upload report on 20" }
+  ]
+}
+
+
+// UpdateToDO
+{
+  "completedTodoTitles": ["Collect data on 16"]
+}
