@@ -16,7 +16,7 @@ const _app = _express()
 _app.use(_express.json())
 
 //swagger documentation
-_app.use('/api-docs', _swaggerUI.serve, _swaggerUI.setup(_swaggerConfig));
+// _app.use('/api-docs', _swaggerUI.serve, _swaggerUI.setup(_swaggerConfig));
 
 // Users
 _app.use('/api/geo_do/users', userRoutes);
