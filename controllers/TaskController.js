@@ -1,7 +1,6 @@
 const Task = require('../models/TaskModel');
 
-// @desc    Create new task
-// @route   POST /api/tasks
+
 exports.addTask = async (req, res) => {
   const {
     locationID,
