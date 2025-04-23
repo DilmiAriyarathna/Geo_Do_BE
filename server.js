@@ -1,8 +1,8 @@
 const _express = require('express')
 const _dotenv = require('dotenv')
 const _mongoose = require('mongoose')
-const _swaggerUI  = require('swagger-ui-express')
-const _swaggerConfig  = require('./swaggerConfig')
+// const _swaggerUI  = require('swagger-ui-express')
+// const _swaggerConfig  = require('./swaggerConfig')
 
 const userRoutes = require('./routes/UserRoutes');
 const LocationRoutes = require('./routes/LocationRoutes');
